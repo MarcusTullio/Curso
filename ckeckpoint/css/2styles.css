@@ -1,0 +1,98 @@
+body {
+  font-family:  sans-serif;
+  background-color: #fafafa;
+  background-color:dodgerblue;
+}
+ 
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+    background-color:rgb(105, 169, 230);
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+   
+.card p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.card h2{
+    color: white;
+    text-align: center;
+}
+   
+.rodape{
+    width:100%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0;
+    border: 4px solid white;
+    border-style: outset;
+}
+.rodape li a{
+    justify-content: space-around;
+    font-size: 20px;
+    text-decoration:none;
+    color: white;
+    text-transform: uppercase;  
+    background-color:rgb(105, 169, 230);
+    padding:10px 30px;
+    border-radius: 10px;
+}
+.rodape li{
+    display:inline-block;
+}
+.rodape li a:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+@media screen and(max-width:1280){
+
+    body{
+       padding:auto 
+       border auto;
+    }
+   
+    p{
+        font-size: small;
+    }
+    h1{
+        font-size: small;
+    }
+    h2{
+        font-size: small;
+    }
+}
+@media screen and(max-width:450){
+    header{
+        display:block;
+    }
+    body{
+       padding:auto 
+       border auto;
+    }
+    
+    p{
+        font-size: small;
+    }
+    h1{
+        font-size: small;
+    }
+    h2{
+        font-size: small;
+    }
+}

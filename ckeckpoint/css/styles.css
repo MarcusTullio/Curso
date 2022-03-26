@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: dodgerblue;
+}
+
+header{
+    width:100%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0;
+    display:fixed;
+    border: 4px solid white;
+    border-style: outset;
+}
+.logoimg{
+    width: 56px;
+    height: 80px;
+    background-image:url(../img/Brasaosetelagoas.png);  
+}
+.conteiner-logo{
+    display: flex;
+    align-items: center;
+}
+.logotexto{
+    margin-left: 20px;
+    color: white;
+}
+.menu li{
+    display:inline-block;
+}
+.menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;  
+    background-color:rgb(105, 169, 230);
+    padding:10px 30px;
+    border-radius: 10px;
+    
+}
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+} 
+ p{ 
+    text-align: center;
+    color:white;
+}
+.hino{
+    font: size 80px;
+    background-image:url(../img/destaque\ sete\ lagoas.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 4em; color: white;
+}
+.hino h1{
+    font-size:auto;
+}   
+
+.historia p{
+    padding: 10px;
+    text-align: justify;
+    padding:17px;
+    font-size:auto;
+}
+.imgF{
+  text-align: center; 
+  padding-top: 10px;
+}      
+.historia h1{
+    font-size: auto;
+} 
+.imgF p{
+    text-align: center;
+    padding-top: 0px;
+}
+.imgL{
+    display: flex;
+    display: inline-block;
+    margin-left: 36%;
+    padding: 10px;
+}       
+.imgCAP{
+    display:flex;
+    justify-content: center;
+}
+.rodape{   
+    position: relative;
+    width:100%;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0;
+    border: 4px solid white;
+    border-style: outset;
+}
+.rodape li a{
+    justify-content: space-around;
+    font-size: 20px;
+    text-decoration:none;
+    color: white;
+    text-transform: uppercase;  
+    background-color:rgb(105, 169, 230);
+    padding:10px 30px;
+    border-radius: 10px;
+}
+.rodape li{
+    display:inline-block;
+}
+.rodape li a:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+@media screen and(max-width:1280){
+
+    body{
+       padding:auto 
+       border auto;
+    }
+    
+    p{
+        font-size: small;
+    }
+    h1{
+        font-size: small;
+    }
+    h2{
+        font-size: small;
+    }
+}
+@media screen and(max-width:450){
+
+    body{
+       padding:auto 
+       border auto;
+    }
+    header{
+        display:block;
+    }
+    p{
+        font-size: small;
+    }
+    h1{
+        font-size: small;
+    }
+    h2{
+        font-size: small;
+    }
+}
